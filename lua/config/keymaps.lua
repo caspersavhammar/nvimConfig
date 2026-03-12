@@ -225,3 +225,6 @@ map({"n", "x"}, "<localleader>r", function() Snacks.debug.run() end, { desc = "R
 
 vim.keymap.set({ "n", "v", "x", "o" }, "ö", "_", { desc = "Beginning of line" })
 vim.keymap.set({ "n", "v", "x", "o" }, "ä", "$", { desc = "End of line" })
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
