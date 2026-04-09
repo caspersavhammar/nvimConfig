@@ -21,36 +21,25 @@ return {
   ---@class lazyvim.TSConfig: TSConfig
   opts = {
     -- LazyVim config for treesitter
-    indent = { enable = true }, ---@type lazyvim.TSFeat
-    highlight = { enable = true }, ---@type lazyvim.TSFeat
     folds = { enable = true }, ---@type lazyvim.TSFeat
     ensure_installed = {
       "bash",
       "c",
       "diff",
       "html",
-      "css",
-      "javascript",
-      "jsdoc",
-      "json",
-      "jsonc",
       "lua",
       "luadoc",
-      "luap",
       "markdown",
       "markdown_inline",
-      "printf",
-      "python",
       "query",
-      "regex",
-      "toml",
-      "tsx",
-      "typescript",
       "vim",
       "vimdoc",
-      "xml",
-      "yaml",
     },
+    highlight = {
+      enable = true,
+      additional_vim_regex_highlighting = { "ruby" },
+    },
+    indent = { enable = true, disable = { "ruby" } },
   },
   ---@param opts lazyvim.TSConfig
   config = function(_, opts)
