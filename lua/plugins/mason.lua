@@ -29,7 +29,6 @@ return {
       "prettier",
       "pyrefly",
       "pyright",
-      "rdbg",
       "ruby-lsp",
       "ruff",
       "shfmt",
