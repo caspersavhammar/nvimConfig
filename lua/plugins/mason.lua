@@ -46,7 +46,7 @@ return {
       "typstyle",
       -- SQL
       "sqlfluff",
-      "postgres-language-server ",
+      "postgres-language-server",
       -- Other
       "prettier",
       "json-lsp",
