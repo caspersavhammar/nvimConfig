@@ -2,14 +2,6 @@ return {
   "mason-org/mason.nvim",
   opts = {
     ensure_installed = {
-      -- PHP
-      "blade-formatter",
-      "duster",
-      "phpactor",
-      "phpcs",
-      "php-cs-fixer",
-      "php-debug-adapter",
-      "stimulus-language-server",
       -- C++
       "clang-format",
       "clangd",
@@ -23,14 +15,9 @@ return {
       "pyright",
       "debugpy",
       "ruff",
-      -- Ruby
-      "erb-formatter",
-      "erb-lint",
-      "ruby-lsp",
       -- HTML
       "html-lsp",
       "htmlhint",
-      "intelephense",
       -- CSS
       "css-lsp",
       "sonarlint-language-server",
